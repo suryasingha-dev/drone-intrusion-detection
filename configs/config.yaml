@@ -1,0 +1,21 @@
+# ─────────────────────────────────────────────
+#  Drone Detection System — Configuration File
+# ─────────────────────────────────────────────
+
+model:
+  path: "weights/best.pt"       # Path to trained YOLOv5 weights
+  input_size: 640               # Inference resolution (pixels)
+  confidence_threshold: 0.50   # Minimum confidence to register a detection
+
+camera:
+  source: 0                     # 0 = default webcam, or path to video file
+
+detection:
+  intrusion_delay: 2.0          # Seconds drone must be in zone before alert (float)
+
+alert:
+  beep_frequency: 800           # Hz (Windows only)
+  beep_duration: 500            # ms (Windows only)
+
+output:
+  base_dir: "outputs"           # Root directory for saved images and logs
