@@ -9,7 +9,7 @@ A real-time computer vision system that detects drones in live video feeds and t
 
 ---
 
-## 📽 Demo
+## Demo
 
 > Record a short screen capture using OBS or Windows Game Bar (Win + G) and drop it here as a GIF.  
 > Tools: [ScreenToGif](https://www.screentogif.com/) (free, Windows)
@@ -18,7 +18,7 @@ A real-time computer vision system that detects drones in live video feeds and t
 
 ---
 
-## 🔍 Features
+## Features
 
 | Feature | Details |
 |---|---|
@@ -32,7 +32,7 @@ A real-time computer vision system that detects drones in live video feeds and t
 
 ---
 
-## 🧠 Model Performance
+## Model Performance
 
 | Metric | Result |
 |---|---|
@@ -47,7 +47,7 @@ The detector uses a **custom YOLOv5s model** fine-tuned on a drone dataset using
 
 ---
 
-## 🏗 Architecture
+## Architecture
 
 ```
 drone-detection/
@@ -69,7 +69,7 @@ drone-detection/
 
 ---
 
-## ⚙️ Setup
+## Setup
 
 **1. Clone the repository**
 ```bash
@@ -101,7 +101,7 @@ Edit `configs/config.yaml` to set your camera source, confidence threshold, and 
 
 ---
 
-## 🚀 Usage
+## Usage
 
 ```bash
 python main.py
@@ -121,7 +121,7 @@ python main.py --config configs/config.yaml
 
 ---
 
-## 📁 Output
+## Output
 
 Each session saves to `outputs/YYYY-MM-DD/`:
 
@@ -145,7 +145,7 @@ Evidence:       intrusion_2024-11-01_14-32-05.jpg
 
 ---
 
-## 🛠 Tech Stack
+## Tech Stack
 
 - **[PyTorch](https://pytorch.org/)** — deep learning backend
 - **[YOLOv5](https://github.com/ultralytics/yolov5)** — real-time object detection
@@ -155,13 +155,13 @@ Evidence:       intrusion_2024-11-01_14-32-05.jpg
 
 ---
 
-## 📄 License
+## License
 
 This project is licensed under the MIT License.
 
 ---
 
-## 👤 Author
+## Author
 
 **Surya Singha**  
 B.Tech in Computer Science & Engineering — Vellore Institute of Technology  
